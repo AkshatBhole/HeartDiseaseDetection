@@ -27,8 +27,8 @@ def create_app(config_class=Config):
     setup_logger()
     
     # Register Blueprints
-    app.register_blueprint(prediction_bp)   # no url_prefix
-    app.register_blueprint(health_bp)       # no url_prefix
+    app.register_blueprint(prediction_bp, url_prefix='/api')
+    app.register_blueprint(health_bp, url_prefix='/api')
 
     
     return app
