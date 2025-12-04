@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosClient = axios.create({
-    baseURL: 'https://heartdiseasedetection-1.onrender.com/api',
+    baseURL: 'https://heartdiseasedetection-1.onrender.com',
     headers: {
         'Content-Type': 'application/json',
     },
