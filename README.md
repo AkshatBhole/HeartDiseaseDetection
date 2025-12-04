@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Heart Disease Detection Web App
 
 A production-ready web application for heart disease detection using a KNN model.
@@ -76,3 +77,6 @@ project-root/
 - `GET /api/predictions`: Get prediction history.
 - `GET /api/health`: Health check.
 - `GET /api/columns`: Get required input columns.
+=======
+# HeartDiseaseDetection
+>>>>>>> 562f9624ade7d1cf33b9a7c684a1db13c90f1f97
