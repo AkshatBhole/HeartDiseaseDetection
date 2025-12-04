@@ -3,7 +3,7 @@ from ml.heart_model_loader import load_heart_model
 
 health_bp = Blueprint('health', __name__)
 
-@health_bp.route('/api/health', methods=['GET'])
+@health_bp.route('/health', methods=['GET'])
 def health_check():
     model, _, _ = load_heart_model()
     status = "ok"
